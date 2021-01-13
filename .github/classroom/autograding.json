@@ -9,26 +9,6 @@
       "comparison": "regex",
       "timeout": 10,
       "points": 5
-    },
-    {
-      "name": "validSecond",
-      "setup": "javac *.java",
-      "run": "java Main",
-      "input": ")pass\r\n)passislonG",
-      "output": "Error.* meets the strength requirements",
-      "comparison": "regex",
-      "timeout": 10,
-      "points": 8
-    },
-    {
-      "name": "punctuation",
-      "setup": "javac *.java",
-      "run": "java Main",
-      "input": "astrongpassworD\r\n(astrongpassword\r\n(atrong\r\n(astrongPassworD",
-      "output": "Error.* Error.* Error.* meets the strength requirements",
-      "comparison": "regex",
-      "timeout": 10,
-      "points": 8
     }
   ]
 }
